@@ -6,7 +6,7 @@ Ez a repository az SZTE-n hirdetett Felhő és DevOps alapok kurzus gyakorlátna
 ### A Vagrantfile-ról
 A `Vagrantfile` a következő beállításokat végzi el:
   - egy `ubuntu/bionic` Vagrant boxot fog elindítani,
-  - beállítja a megfelelő hypervisort (ebben az esteben VirtualBox), és konfigurálja azt
+  - beállítja a megfelelő hypervisort (ebben az esteben VirtualBox), és konfigurálja a VM erőforrásait
   - létrehoz egy privát hálózatot a VM-nek,
   - amelynek a `192.168.33.10`-es privát IP címet osztja ki
   - futtat egy `apt-get update`-et, és
